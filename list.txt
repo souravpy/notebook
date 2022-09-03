@@ -1,0 +1,9 @@
+tech stack to get:
+1.OOP python
+2.Web Dev (html,css,js)
+3.node js stuff
+4.OS
+5.CPU arch
+6.Data science
+7.ML
+8.DSA using Java

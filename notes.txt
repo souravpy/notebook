@@ -1,0 +1,516 @@
+# ideas come and go
+# while writing, base and the structure
+# problem is while writing more ideas without making the base is code becomes spagethii
+# when an idea strikes write it in #ideas
+
+
+:
+
+
+complete python in 10 hours
+
+we read faster than watching videos
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+21Jul22 1:14am
+
+the init and the self
+
+init method(function) is used to initiate objects
+__init__ method is called every time a new object is created
+init hold all the variables(attributes) used oop(by all the methods) simple.
+
+
+self used to
+
+# to append to a line A is used
+# to reach the end of a line use $
+# to switch panes in vs code use ctrl+1, ctrl+2, ctrl+2
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+23Jul22 11:43am
+
+there are two types of variables in oops
+1.class variables (explictly defined in class)
+2.instance variables(self.var)
+
+to use variables from other class we use inheritance
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+24Jul22 7:54pm
+
+we can either use:
+a=class()
+b=class()
+a.method()
+b.method()
+
+
+or 
+
+
+
+
+__init__ gets called once for every object 
+initialization
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+25Jul22 11:16
+self is used to access the values
+self.attribute1
+self.attribute2
+
+object is created in heap memory
+
+
+
+constructor, self
+
+different  object has a different memory allocation
+each time you run the code, object gets assigned a new address
+
+
+
+
+
+size of object:
+depends on number of variables and size of each variables
+
+constructor allocates the size of variables
+
+self contains default values of variables 
+
+self directs the pointer to the object itself 
+
+The Default __init__ Constructor in C++ and Java. 
+Constructors are used to initializing the object’s state. 
+The task of constructors is to initialize(assign values)
+to the data members of the class when an object of the 
+class is created. Like methods, a constructor also contains 
+a collection of statements(i.e. instructions) that are executed 
+at the time of Object creation. 
+It is run as soon as an object of a class is instantiated. 
+The method is useful to do any initialization you want to do
+with your object.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+29Jul22 src kunal DSA
+
+
+u for undo
+ctrl+r for redo
+
+a=10
+a is refrence variable, stored in stack
+10 is the objeect, stored in heap
+variables in stack memory pointing to the object in heap memory
+more than one refrence variable point to the same object
+
+if any of the reference variables change the object 
+the value is being changed for all the variable 
+
+object with no refrence variable, gets removed from the memory
+when garbage collection hits.
+(garbage collection hits automatically) thats how python works 
+______________________________________________________________________________
+lect 3
+
+java doesnt converts the code into machine code
+instead it converts to byte code
+byte code has extension .class
+
+static variable is independent of the obkect of classes
+
+
+how the java program gets executed:
+(heirarcial order of the packages nested)
+1.jdk: java development kit
+       jdk = jre + dev_tools
+       jdk is top level package
+       it contains:
+                a. development tools 
+                b. jre
+                c. jvac: a compiler
+                d. jar: archiver, which packages all the code 
+                e. javadoc: docs generator
+                f. interprerter/loader
+
+4.jre: java runtime enviorment
+       jre = jvm + library_classes
+3.jvm: java virtual machine
+       contains jit in it (as it is a virtual machine)
+4.jit: just in time
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+30Jul22 src freecodecamp python oop
+
+instance == obj
+
+An instance is a specific representation of an object. 
+An object is a generic thing while an instance is a single object
+that has been created in memory. 
+Usually an instance will have values assigned to it's properties 
+that differentiates it from other instances of the type of object.
+
+____________________________________________________________________________
+
+                      VIM TIPS
+src: mit missing sem website
+
+ctrl+/ to comment out code in any lang
+$ for end of line
+0 for begenning of line
+  for going top of document
+use e to go end of line 
+use a to append, instead of i
+shift+A for appendd
+
+
+gg for going the start of document
+G for for going to the end of document
+42G jumps to the specified line:
+
+
+To move extremely horizontally use:
+    0: Moves to the first character of a line
+    ^: Moves to the first non-blank character of a line
+    $: Moves to the end of a line
+    g_: Moves to the non-blank character at the end of a line
+
+
+
+                     VIM MODES:
+
+    Normal: for moving around a file and making edits
+    Insert: for inserting text
+    Replace: for replacing text
+    Visual (plain, line, or block): for selecting blocks of text
+    Command-mode: for running a command
+
+Normal: (esc)
+
+Insert: (i)
+
+Replace:
+
+Visual: (v) 
+       plain- (v)  highlights normally 
+       line-  (shift+v) highlights line by line
+       block- (ctrl+v) highlights block by block
+
+Command-mode: (:)
+    :q quit (close window)
+    :w save (“write”)
+    :wq save and quit
+    :e {name of file} open file for editing
+    :ls show open buffers
+    :help {topic} open help
+        :help :w opens help for the :w command
+        :help w opens help for the w movement
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2Aug22 tmux, src yt
+
+ctrl+a is the mode selector in tmux
+ctrl+b 
+
+ctrl+b
+        % divides screen vertically half
+        arrow keys switch focus
+        " divides horizontally (shift+')
+
+literally installed ohmytmux
+now it literally even restores nvim
+
+
+
+
+
+exit to exit the session of the terminal
+
+
+just go ahead and try harder stuff
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Topic: tmux session
+src: https://leimao.github.io/blog/Tmux-Tutorial/ (in read mode)
+
+session(windows(panes))
+tmux is a termianl manager which can be used in 
+ssh commands
+
+ctrl+b for running tmux commands
+just press ctrl+b and press the rest of the buttons
+
+
+
+two things : terminal and tmux console
+
+to access tmux console: 
+        ctrl+b :
+
+create sessions:
+        $tmux
+        $tmux new
+        $tmux new-session
+        :new (ctrl+b+:)
+
+detach sessions:
+        ctrl+b+d (runs stuff in background)
+        $exit (kills)
+
+tmux session with name:
+        tmux new-s [session-name]
+
+view active session:
+        $tmux ls
+        $tmux list-sessions
+        ctrl+b+s (esc/q to escape the info)
+
+rename sessions:
+        tmux rename-session [-t session-name][new-session-name]
+        if [t-session] is not specified then the last active session is renamed
+        ctrl+b+&
+
+kill sessions:
+        $tmux kill-server (kills all active sessions)
+        $tmux kill-server -t[session-name] (kills the specific session)
+
+attach tmux sessions (attaches the local terminak=l to the tmux session):
+        $tmux attach -t[session name]
+
+
+tmux session contains multiple windows:
+        to create a window:
+                ctrl+b+c 
+
+        to kill a window:
+                ctrl+b+$
+
+        to kill a pane:
+                ctrl+b+x
+
+        to rename a window:
+                ctrl+b+,
+
+        to select a window:
+                ctrl+b+(0,1,2,3,4) window id
+                ctrl+b+p (previous window)
+                ctrl+b+n (next window)
+
+tmux windows contains panes:
+        horizontal pane
+                ctrl+b+% (divides into half)
+                ctrl+b+" (divides vertically)
+
+        close pane:
+                ctrl+b+x
+
+        resize pane:
+                ctrl+arrow (hold control then resize with arrow keys)
+
+restore session: (tmux resseruct extension)
+        save session:
+                ctrl+b + ctrl+s
+
+        restore sesssion:
+                ctrl+b + ctrl+r
+
+move screen without moving cursor:
+ctrl+E (down)
+ctrl+Y (up)
+
+
+
+
+
+
+tmux session manager
+Features
+
+    prefix + s prompt for long session lists.
+    
+    prefix + g - prompts for session name and switches to it. Performs 'kind-of' name completion.
+    Faster than the built-in prefix + s
+
+    prefix + C (shift + c) - prompt for creating a new session by name.
+
+    prefix + X (shift + x) - kill current session without detaching tmux.
+
+    prefix + S (shift + s) - switches to the last session.
+    The same as built-in prefix + L that everyone seems to override with some other binding.
+
+    prefix + @ - promote current pane into a new session.
+    Analogous to how prefix + ! breaks current pane to a new window.
+
+    prefix + t<secondary-key> - join currently marked pane (prefix + m) to current session/window, and switch to it
+        secondary-keys
+            h, -, ": join horizontally
+            v, |, %: join vertically
+            f, @: join full screen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===================================================================================================================
+
+jupyter notebook code:
+
+#classes are custom datatypes
+#creating a class for item in stores
+class item:
+        def __init__(self,name,price,quantity):
+                self.name = name
+                self.price = price
+                self.quant = quant
+fruit = item()
+fruit.name = apple
+fruit.price = 10
+fruit.quant = 12 
+print(type(apple))
+
+
+
+#swapping the values
+a=69
+b=42
+print("og val of a,b resp",a,b)
+a,b=b,a
+print("swap val of a,b resp",a,b)
+
+
+
+#swapping the values
+a=69
+b=42
+print("og val of a,b resp",a,b)
+a,b=b,a
+print("swap val of a,b resp",a,b)
+
+
+class Computer():
+        def __init__(self):
+                print("prints when called")
+        def configs(self):
+                print("fucking specs")
+        
+a=Computer()
+b=Computer()
+
+a.configs()
+b.configs()

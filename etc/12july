@@ -1,0 +1,26 @@
+programming praradigms:
+
+src is wikipedia
+
+procedural
+object
+functional
+
+based on java
+
+static vs dynamic // compiled vs interpreted
+
+static and dynamic are talking about variable
+
+-----------------------------------------------------------------
+lecture notes:
+
+static:
+	type check at compile time
+	errors shown in compile time
+	datatype are declared before using
+	has more control
+
+dynamic:
+	performs type checking at runtime
+	
