@@ -324,6 +324,29 @@ move screen without moving cursor:
 ctrl+E (down)
 ctrl+Y (up)
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+31Aug22:
+    -running two commands simultaneously
+        use ; between two commands
+
+     deciding between learning java and c
+        treats:
+            c: arduino, college, dsa
+            java: Android dev, kotlin, backend
+                        in demand
+        
+        gut feeling go java.
+        go c, then java.
+
+
+learning syntax:
+    loops
+    conditional statements
+
+
+
+
+
 
 
 
@@ -352,172 +375,8 @@ Features
             h, -, ": join horizontally
             v, |, %: join vertically
             f, @: join full screen
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-2Sept22
-src java 4
-in Java
--file name == public class name
--the best practice is to name the class with capital letter
--public class
-Main function in Java is:
-        ~public static void main(String[] args)
 
-"int main in c is used as calling block 
-code cant be used outside main or any other function
-int main is the first function being executed, hence used to decalre the variables, 
-called"
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-4Sept22
-src Java Book
-
-file is compiled to byte code using javac compiler 
-(javac==java compiler)
-byte code is stored as .class file
-byte code is secure and encrypted, 
-cant be accsed from outside the compiler
-
-compiling in Terminal:
-        javac Main.java
-
-running the compiled java file :
-        java Main
-
-running two commands at once:
-        command1 ; command2
-        (spacing doesnt matter)
-        i.e:
-        javac Main.java; java Main
-
-l4 20:46 command line arguments:
-        public class Main {
-          public static void main(String[] args) { 
-                // *String[] args takes command line argument 
-            System.out.println("Hello World");
-          }
-        }
-terminal:
->> javac Main lol, sus   //*here lol, sus are args
-
-change location of class files formed:
->> javac .. 
-
-for viewing git 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-===================================================================================================================
+=================================================================================================================
 
 jupyter notebook code:
 
@@ -564,3 +423,116 @@ b=Computer()
 
 a.configs()
 b.configs()
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2Sept22
+src java 4
+in Java
+-file name == public class name
+-the best practice is to name the class with capital letter
+-public class
+Main function in Java is:
+        ~public static void main(String[] args)
+
+"int main in c is used as calling block 
+code cant be used outside main or any other function
+int main is the first function being executed, hence used to decalre the variables, 
+called"
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+3Sep22
+
+before pushing an existing ref to github, commit first,
+i.e     git init    
+        git add.
+        git commit -m "initial commit"
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4Sept22
+src Java Book
+
+file is compiled to byte code using javac compiler 
+(javac==java compiler)
+byte code is stored as .class file
+byte code is secure and encrypted, 
+cant be accsed from outside the compiler
+
+compiling in Terminal:
+        javac Main.java
+
+running the compiled java file :
+        java Main
+
+running two commands at once:
+        command1 ; command2
+        (spacing doesnt matter)
+        i.e:
+        javac Main.java; java Main
+
+l4 20:46 command line arguments:
+        public class Main {
+          public static void main(String[] args) { 
+                // *String[] args takes command line argument 
+            System.out.println("Hello World");
+          }
+        }
+terminal:
+>> javac Main lol, sus   //*here lol, sus are args
+
+change location of class files formed:
+>> javac .. 
+
+for viewing git
+ hellow hewllepwef
+ wefw
+ fwef
+ wefwwefwefw
+ efw
+ faster\          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
