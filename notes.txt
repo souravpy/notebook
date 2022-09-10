@@ -344,14 +344,6 @@ learning syntax:
     conditional statements
 
 
-
-
-
-
-
-
-
-
 tmux session manager
 Features
 
