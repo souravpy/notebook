@@ -576,9 +576,19 @@ used in python by using ; import csv
 
 static method and class method differences
 
+
++++++++++++++++++++++++++++++++++++++++++++++
 keep java and c on hold.
 
-go bash and python, web nowwww
+> go bash and python, web nowwww
+
+> contribute to git everyday...
+
+> go out, explore....
++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
 
 
 
