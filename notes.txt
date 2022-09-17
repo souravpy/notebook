@@ -450,6 +450,9 @@ cant be accsed from outside the compiler
 compiling in Terminal:
         javac Main.java
 
+compiled Java program is stored as
+ Main.class or <filename>.class
+
 running the compiled java file :
         java Main
 
@@ -459,7 +462,7 @@ running two commands at once:
         i.e:
         javac Main.java; java Main
 
-l4 20:46 command line arguments:
+L4 20:46 command line arguments:
         public class Main {
           public static void main(String[] args) { 
                 // *String[] args takes command line argument 
@@ -473,34 +476,109 @@ change location of class files formed:
 >> javac .. 
 
 for viewing git
- hellow hewllepwef
- wefw
- fwef
- wefwwefwefw
- efw
- faster\          
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12Sep22
+src java Book
 
-fwefWefw
-efwf
-wefwwefwefwwefw
-efwfewef
+oops:
+encapsulation
+inheritance
+polymorphism
 
-hello world im sourav biswal
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+
+// String[] args is used to take command line arguments
+// specifically args
+
+// System.out.println  system - defines acess to System
+                          out - prints out to the terminal
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12Sep22
+src: the heart, conscience
+FUCK JAVA.
+FUCK C.
+
+LETS ROCK PYTHON
+WE'RE BUILDING IT UP TO BRING IT BACK DOWN, BURN IT TO THE GROUND
+
+already know python, revise that stuff
+revise from learn python 'rat' textbook
+
+Arduino:
+
+declaring variables before void setup() makes it global variable
+
+cat is used in terminal to display file contents in termianl
+ls .. shows content of previous directory
 
 
+inherit the upper level class by using it in the parameters
+
+class pet();
+        ssfwefw
+        efwfewefwefw
+        jif;wantwef
+        khelp wp
+class cat(pet):
+
+ctrl + ~
+opens up the terminal
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+15Sep22
+src python oop basics video
+python oops concepts:
+encapsulation
+
+@classmethod in python, it refrences the class itself
+acceses the class attributes
+
+@staticmethod in python 
+print (f"hello world: {variable}")
+
+if we havent assignerd the attribute yet we can pass in
+extra attributes, by defining them outside the class block
 
 
+using the attributes from the init by using the 
+
+assert <attribute>:
+checking the values are right type or value;
+
+if the assertion is unfullfiled then 
+the assertion error is printed
 
 
+global attributes which can be accesed by all the objects 
+are defined under class
+e.g.
+class stuff():
+        price = 11
 
+displaying/ acesing all the attributes of an object:
+        <class_name>.__dict__
 
+acesing all the attributes of an object 
+        <object_name>.__dict__
 
+it stores them in the form of a dictionary
 
+csv- common seperated vlaue
+used in python by using ; import csv
 
+@classmethod does :
+@staticmethod means
 
+static method and class method differences
 
+keep java and c on hold.
 
-
+go bash and python, web nowwww
 
 
 
