@@ -595,6 +595,57 @@ LEARN DSA IN PYTHON THEN TRANSITON...
 
 oops and pointers
 
+--------------------------
+18Sep22:
+src python ds
+
+Big O notation:
+1.keep fastest growing term 
+2.drop the constants
+
+e.g 
+for code:
+.........................
+for i in range(0,n):
+        print(i)
+.........................
+the time complexity is:
+t=a*n+b
+
+finding big O using the rules:
+t=a*n+b  
+> t=a*n (keep fastest growing term) 
+> t=n (removing the constants)
+hence, 
+complexity = O(n)
+
+for code:
+.........................
+for i in range(0,n):        
+        for j in range(0,i):
+                print()
+.........................
+the time complexity is:
+t=a*n2+b
+
+finding big O using the rules:
+t=a*n2+b  
+> t=a*n2 (keep fastest growing term) 
+> t=n2 (removing the constants)
+hence, 
+complexity = O(n2)
+
+Big O literally means big number of zeroes,
+numbers so big that only the number matters 
+only fastest growing term is considered
+constants are dropped 
+cause, nothing else matters.
+
+bin search is a search operation which axts on a sorted list
+goes to middle of list, agian and again till it finds the element
+
+big O is considered in worst case scenario
+
 
 
 
