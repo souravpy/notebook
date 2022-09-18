@@ -578,7 +578,9 @@ static method and class method differences
 
 
 +++++++++++++++++++++++++++++++++++++++++++++
-keep java and c on hold.
+17Sep22:
+
+>keep java and c on hold (till you get home).
 
 > go bash and python, web nowwww
 
@@ -587,7 +589,11 @@ keep java and c on hold.
 > go out, explore....
 +++++++++++++++++++++++++++++++++++++++++++++
 
+AGAIN, FUCK JAVA AND C.
+LEARN DSA IN PYTHON THEN TRANSITON...
 
+
+oops and pointers
 
 
 
