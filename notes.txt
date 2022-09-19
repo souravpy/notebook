@@ -645,6 +645,9 @@ bin search is a search operation which axts on a sorted list
 goes to middle of list, agian and again till it finds the element
 
 big O is considered in worst case scenario
++++++++++++++++++++++++++++++++++++++++++++++++++
+19Sep22
+
 
 
 
