@@ -647,12 +647,20 @@ goes to middle of list, agian and again till it finds the element
 big O is considered in worst case scenario
 +++++++++++++++++++++++++++++++++++++++++++++++++
 19Sep22
+did nothing
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+20Sep22
 
+ctrl+b +c create new tmux window
+ctrl+b +1,2,3 switch between windows
 
+todo:
+decorators in python 
+complete 
 
+static and dynamic array
 
-
-
+static = constant size
 
 
 
