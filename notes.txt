@@ -661,6 +661,19 @@ complete
 static and dynamic array
 
 static = constant size
+kinda almost did nothin
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+21Sep22
+
+gnome had login problems today, kinda took time to get fixed
+solutions were is using the login terminal using ctrl+alt+f2 key
+never use a weirdass user name.
+resetting gdm didnt work, tried whole lotta times
+resetting the .bashrc worked 
+https://askubuntu.com/questions/509834/lock-screen-does-not-unlock-with-correct-password-gnome-and-ubuntu-14-04
+
+
 
 
 
