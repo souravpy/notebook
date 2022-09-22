@@ -673,7 +673,13 @@ resetting gdm didnt work, tried whole lotta times
 resetting the .bashrc worked 
 https://askubuntu.com/questions/509834/lock-screen-does-not-unlock-with-correct-password-gnome-and-ubuntu-14-04
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+22Sep22
 
+finally, finally i got nbterm working
+mistake i did was i forgot to add pip to $PATH
+,did it by editing .bash_profile
+export PATH="$HOME/.local/bin:$PATH"
 
 
 
