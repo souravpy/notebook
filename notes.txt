@@ -700,6 +700,10 @@ dyanmic array:
 pyhton- list
 java- ArrayList
 cpp- std::vector
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=+++++++
+25Sep22
+back home
+
 
 
 
