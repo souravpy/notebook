@@ -683,12 +683,23 @@ export PATH="$HOME/.local/bin:$PATH"
 
 
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+23Sep22
+src python ds
 
+linear ds(array(static array, dynamic array))
 
+python lists are dynamic list, they dont have linear lists
 
+static array
+python- 
+java- NativeArray
+cpp - NativeArray
 
-
-
+dyanmic array:
+pyhton- list
+java- ArrayList
+cpp- std::vector
 
 
 
