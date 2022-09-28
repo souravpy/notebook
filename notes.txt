@@ -704,8 +704,15 @@ cpp- std::vector
 25Sep22
 back home
 
+ctrl+b toggles the side bar in vscode
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+its been two days since ive touched my laptop
+vacationing or staycationing hard maybe.
 
+bash is a space sensetive language
+doesnt work when operators and variables have space beetween them
+foo/foobar  is used to decalare a temporary variable
 
 
 
