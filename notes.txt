@@ -713,7 +713,7 @@ vacationing or staycationing hard maybe.
 bash is a space sensetive language
 doesnt work when operators and variables have space beetween them
 foo/foobar  is used to decalare a temporary variable
-
+foobar is used for 
 
 
 
