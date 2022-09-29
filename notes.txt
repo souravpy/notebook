@@ -709,13 +709,27 @@ ctrl+b toggles the side bar in vscode
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 its been two days since ive touched my laptop
 vacationing or staycationing hard maybe.
+28Sep22
 
 bash is a space sensetive language
 doesnt work when operators and variables have space beetween them
 foo/foobar  is used to decalare a temporary variable
-foobar is used for 
+foobar is used for name space for temp files
+-------------------------
+bash scripting 101:
+#script:
+foo=101
+echo $foo
 
+>$ accesses the variable value
+>echo can print variable values or string statements
 
+--------------------------
+#if statement
+if [ $foo -eq 69 ];
+
+> -eq, -lt, -
+> fi is used in if statement
 
 
 
