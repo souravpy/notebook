@@ -668,7 +668,7 @@ kinda almost did nothin
 
 gnome had login problems today, kinda took time to get fixed
 solutions were is using the login terminal using ctrl+alt+f2 key
-never use a weirdass user name.
+never use a weird ass user name.
 resetting gdm didnt work, tried whole lotta times
 resetting the .bashrc worked 
 https://askubuntu.com/questions/509834/lock-screen-does-not-unlock-with-correct-password-gnome-and-ubuntu-14-04
@@ -799,9 +799,57 @@ ctrl+/ ,comments lines in html
 <!--html comments -->
 
 ============================================================================================================================================================================================================
-20Jul22
-============================================================================================================================================================================================================
-============================================================================================================================================================================================================
+30Sep22
+
+before pushin repo to github, 
+-initiate local git
+-track all files of git , git add.
+-make commit, 
+-then push the repo
+
+idea: Todo app using python and django framework
+
+how to write better README.md
+https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+
+new notes policy:
+write initially in topic wise files, 
+then conjoin/ append in the notes 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1Oct22
+2Oct22
+made readme files in github for some of my repository
+took part in hacktober fest, planning to do opensource contributuons
+chosing a repository
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+3Oct22
+ctrl+w closes firefox tabs else than vim keybindings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
