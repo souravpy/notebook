@@ -826,6 +826,8 @@ chosing a repository
 3Oct22
 ctrl+w closes firefox tabs else than vim keybindings
 
+if there is differnces between local and online repo then 
+git pull --rebase origin main
 
 
 
