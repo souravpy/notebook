@@ -829,7 +829,18 @@ ctrl+w closes firefox tabs else than vim keybindings
 if there is differnces between local and online repo then 
 git pull --rebase origin main
 
+6Oct22
+web dev is boring, changing the approach
+going to project based learning
+pick a project, learn the stack to replicate it
+: how about a resume website?
+or, weather website?
+or, online nvim editor?
+or, youtube video transcript (subtitles) so you can read
 
+image src and a herf tags are the basic tags for image and web links 
+resp.
+ ctrl / comments out
 
 
 
