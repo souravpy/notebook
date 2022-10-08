@@ -840,16 +840,27 @@ or, youtube video transcript (subtitles) so you can read
 
 image src and a herf tags are the basic tags for image and web links 
 resp.
- ctrl / comments out
+ 
+ctrl / comments out
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+7Oct22
 
+fork and pull in github:
+fork: copying someone's github repo to your own private repo
+pull: providing your modification of repo, to the owner for merging it
 
+src datascience roadmap vid:
+        -need to learn ms excel for datascience
+        -statistics: from khan academy, marin stats, statquest
+        -numpy, pandas, data visualization, data cleaning
+        -learn fortran, cobol
+        -kagle datasets, exploratory data analysis
+        -ml
+        -deep learning
+        -mongo db mysql
+        -bi tools like tableau to visualize data
 
-
-
-
-
-
-
+kill tmux server before making any changes to tmux config, to see changes
 
 
 
