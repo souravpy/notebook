@@ -862,9 +862,24 @@ src datascience roadmap vid:
 
 kill tmux server before making any changes to tmux config, to see changes
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Makrdown:
+Apostrophe can export markdown to HTML, shows real time changes 
+in markdown file
 
+two enter keys strokes make make the newline in makrdown
 
+**bold character**
 
+*italic character*
+
+HEAD  bigger heading
+====
+
+head smaller heading
+----
+
+Markdown used for easier writing HTML files (by converting html to markdown)
 
 
 
