@@ -883,6 +883,11 @@ Markdown used for easier writing HTML files (by converting html to markdown)
 
 git pull --rebase origin main
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12Oct22
+JS, CSS, React rush.
+
+
 
 
 
