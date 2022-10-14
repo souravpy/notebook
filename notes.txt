@@ -891,10 +891,13 @@ implementing css:
         -inline: use "style" in every heading and paragraph i.e  
                  <h1 style='color:black;'Text text text</h1>
         -internal: add <style> tag in <head> for predefining style for elementi i.e
-                   d
+                   d1 
         -extenal: add <link> tag in <head> for executing css file placed somewhere
 
 
-
-
-
+JS, CSS, React rush.
+JS, CSS, React rush.
+JS, CSS, React rush.
+13
+13
+13
