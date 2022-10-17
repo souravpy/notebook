@@ -894,10 +894,36 @@ implementing css:
                    d1 
         -extenal: add <link> tag in <head> for executing css file placed somewhere
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+17Oct22
+test prep for DSUC, DLD
 
-JS, CSS, React rush.
-JS, CSS, React rush.
-JS, CSS, React rush.
-13
-13
-13
+
+DSUC SYALLABUS
+5 short question
+3 long question
+Total 20 marks 
+
+1.Infix prefix postfix conversion
+2.Location of element in array of row and column major order
+3.Stack push and pop ,
+Circular queue basic operation
+
+DSUC topics:
+Index of arrays, importance of arrays
+
+array operations:
+        INSERTION
+        SEARCH
+
+Stack Push and pop
+        
+
+
+
+
+
+
+
+
+
