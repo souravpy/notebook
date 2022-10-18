@@ -931,7 +931,17 @@ Stacks folllow LIFO principle:
 first check overflow condition
 if TOS = size - 1 // since the index starts from 0,1,2,3
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+18Oct22
 
+href in html is used for -making links
+                         
+<link>-linking external stylesheets 
+<link, rel>- link rel relates the link 
+e.g. <link rel ="stylesheet" href="cssfile.css">
+
+<div> defines the division or section in html
+        used as a container for html styled by inline css 
 
 
 
