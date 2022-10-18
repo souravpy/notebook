@@ -917,9 +917,19 @@ array operations:
         SEARCH
 
 Stack Push and pop
-        
+Stacks folllow LIFO principle:
+        all addition and deletion takes plasce at the top of the Stack
+        PUSH==add to top of stack
+        POP==remove element from top of the stack
+        Operations:
+                Push=
+                Pop=
+                IsEmpty=
+                IsFull=
+                Peek=
 
-
+first check overflow condition
+if TOS = size - 1 // since the index starts from 0,1,2,3
 
 
 
