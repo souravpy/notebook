@@ -951,3 +951,21 @@ ctrl+r for redo in vim
 
 you can bake all the javascript, css inside html, instead of making seperate files of it
 (not suggested), <style> for css, and <script> for JS
+
+javascript adds dynamicness to the page 
+
+thinking of making better commit notes, in order to use them as an Index
+better but less commits...?
+
+use tab more often in Terminal
+
+learning git branching and using it aswell
+
+use file history for viewing git history
+
+branching is done of entire repo, can't branch an individual file or folder(directory)
+
+
+- git branch <branch name>  //creates a new branch
+- git branch -a  //lists all branches in the repo
+- git 
