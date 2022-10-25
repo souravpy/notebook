@@ -959,6 +959,9 @@ better but less commits...?
 
 use tab more often in Terminal
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+21Oct22
+
 learning git branching and using it aswell
 
 use file history for viewing git history
@@ -968,4 +971,7 @@ branching is done of entire repo, can't branch an individual file or folder(dire
 
 - git branch <branch name>  //creates a new branch
 - git branch -a  //lists all branches in the repo
-- git 
+- git branch -d 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
