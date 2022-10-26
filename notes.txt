@@ -974,4 +974,16 @@ branching is done of entire repo, can't branch an individual file or folder(dire
 - git branch -d 
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-javascript is syntatically similar to C++ or java wrt to colons, brackets and all
+-javascript is scrpting lang, not compiled.
 
+declaring javascript variables: let, const, var
+e.g.
+let x;
+x = 11;
+
+node js is used to execute js in server
+,outside browser 
+node js is better than php and asp, as it follows asynchronous
+doesnt have a waiting phase
+is memory efficient
