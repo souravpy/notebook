@@ -987,3 +987,22 @@ node js is used to execute js in server
 node js is better than php and asp, as it follows asynchronous
 doesnt have a waiting phase
 is memory efficient
+like cpp for web dev, can also use python too as a server backend
+
+django is future, Instagram, spotify, youtube is based off it.
+Django has better performance... as its based on Model view template
+supports multithreading, caching and is more scalable
+
+TLDR~ Django better
+
+how about making digital art using processing ide??
+Processing ide
+
+hello world !!! its 1001th line
+
+( )makes cursor go to begenning and end of sentence 
+0, $ for start abd end of line
+A for appending in end
+I for inserting in begenning
+
+`
