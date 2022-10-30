@@ -1004,5 +1004,3 @@ hello world !!! its 1001th line
 0, $ for start abd end of line
 A for appending in end
 I for inserting in begenning
-
-`
