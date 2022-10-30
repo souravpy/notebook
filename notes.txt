@@ -1004,3 +1004,18 @@ hello world !!! its 1001th line
 0, $ for start abd end of line
 A for appending in end
 I for inserting in begenning
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Starting out DSA In cpp
+
+database: ops in HDD like sql
+data warehouse: management of huge amount of legacy data, 
+                not used currently in main db
+big data:
+
+data structures are run on main memory aka RAM (tree,lists...)
+
+ram is used in Stack and heap
+Dynamic memory allocation,
+how c uses ram?
+
