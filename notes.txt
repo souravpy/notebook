@@ -1019,15 +1019,6 @@ ram is used in Stack and heap
 Dynamic memory allocation,
 how c uses ram?
 
-problems i would admit:
-        looks, asthetics, my body
-        not learning new things
-        not being close to my mom, dad, and brother
-
-solutions:
- learning comes from necessities
- create necessities, ie pickup new things to learn
-
 js doesnt require semicolons after every line
 but requires them if we have multiple commands in a same line 
 
