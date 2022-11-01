@@ -1022,4 +1022,39 @@ how c uses ram?
 js doesnt require semicolons after every line
 but requires them if we have multiple commands in a same line 
 
-js arrays: 
+js arrays: in square brackets
+arr = [q,w,e,r,t,y]
+
+tomorrow's task:
+CWH  vid 1-10, easily
+big O- notation, array, array operation
+read written notes, then classes
+
+pretty easy, pretty easy....
+
+array topics:
+ What is Array ?
+ Why array ?
+ Declaring Arrays
+ Indexes in Array
+ Accessing in array
+ Initialisation in Arrays
+ Implementation
+ Arrays with Functions
+ Different types of Arrays
+ Maximum/Minimum in an Array
+ Scopes in Array
+ Linear Search
+ Reverse an Array
+
+
+array stores similar stuff
+array has contiguous memory location
+array are indexed
+
+declaring array:
+	int arr[size];
+	cour<<arr[index];
+	int arr[10]={1,2,3,4,5,6,7,8,9,0}
+
+
