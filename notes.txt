@@ -1033,28 +1033,46 @@ read written notes, then classes
 pretty easy, pretty easy....
 
 array topics:
- What is Array ?
- Why array ?
- Declaring Arrays
- Indexes in Array
- Accessing in array
- Initialisation in Arrays
- Implementation
- Arrays with Functions
- Different types of Arrays
- Maximum/Minimum in an Array
- Scopes in Array
- Linear Search
- Reverse an Array
+        What is Array ?
+        Why array ?
+        Declaring Arrays
+        Indexes in Array
+        Accessing in array
+        Initialisation in Arrays
+        Implementation
+        Arrays with Functions
+        Different types of Arrays
+        Maximum/Minimum in an Array
+        Scopes in Array
+        Linear Search
+        Reverse an Array
 
-
-array stores similar stuff
-array has contiguous memory location
-array are indexed
+What are arrays?
+-array stores similar stuff
+-array has contiguous memory location
+-array are indexed
 
 declaring array:
-	int arr[size];
+>>	int arr[size];
 	cour<<arr[index];
 	int arr[10]={1,2,3,4,5,6,7,8,9,0}
+
+ctrl c to kill a task on terminal
+
+put the first element in the empty array
+start iteration from 1, 
+
+#python loop doesnt iterate the lower limit
+for i in range(0,4);
+it exludes
+
+
+
+
+
+
+
+
+
 
 
