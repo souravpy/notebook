@@ -1064,14 +1064,35 @@ start iteration from 1,
 
 #python loop doesnt iterate the lower limit
 for i in range(0,4);
-it exludes
+it exludes the upper range
+
+dont care about broiler plate in leetcode
+
+its getting chaotic.
 
 
+i fixed it. used a notebook, a physical notebook
 
+ctrl + p =   file quick access
 
+cpp form programiz.
+        covering two or more a day, contains index of topics
 
+cpp practicals:
+        type modifier signed, unsigned
+        Input Output, cout, cin, endl
+        type conversion, string>>int, etc, std::stdoi,stdof...
+        defining string
 
+before pushing a new project to github, make initial commit, 
+put stuff in staging area: git add. ; git commmit
+you cant push a blank foler, it must contain some files...
 
+to enter the broiler plate code, type the keyword,
+type main
+
+o- to enter code in new line
+think of words not alphabets.
 
 
 
