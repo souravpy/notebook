@@ -1092,7 +1092,11 @@ to enter the broiler plate code, type the keyword,
 type main
 
 o- to enter code in new line
+
 think of words not alphabets.
+
+write bash script
+write python script for 
 
 
 
