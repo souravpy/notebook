@@ -1098,6 +1098,19 @@ think of words not alphabets.
 write bash script
 write python script for 
 
+declaring multiple variables
 
+int a=1; b=11; c=11;
 
+string namespace = 'sss'
 
+cpp array =
+datatype 
+
+traversing an array:
+        for(int i : array){
+                //code
+        }
+
+an array cant be outputted once,
+have to use loops to iterate and print
