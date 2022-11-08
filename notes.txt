@@ -1114,3 +1114,9 @@ traversing an array:
 
 an array cant be outputted once,
 have to use loops to iterate and print
+
+excuting cpp files in terminal:
+>> g++ filename.cpp -o filename
+>> ./filename
+
+./ because filename is executable file
