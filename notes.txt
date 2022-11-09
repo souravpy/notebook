@@ -1120,3 +1120,15 @@ excuting cpp files in terminal:
 >> ./filename
 
 ./ because filename is executable file
+
+v is visual mode
+V is visual line mode, selects one line at a time
+
+o opens in new line in nivm
+
+in switch case, every statement needs a break 
+
+prefix + Ctrl+s == saves tmux enviotment by tmux resseruct
+prefix + Ctrl+r == restores tmux enviotment
+
+sizeof displays size in bytes
