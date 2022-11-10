@@ -1100,6 +1100,7 @@ write python script for
 
 declaring multiple variables
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 int a=1; b=11; c=11;
 
 string namespace = 'sss'
@@ -1121,6 +1122,7 @@ excuting cpp files in terminal:
 
 ./ because filename is executable file
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 v is visual mode
 V is visual line mode, selects one line at a time
 
@@ -1132,3 +1134,28 @@ prefix + Ctrl+s == saves tmux enviotment by tmux resseruct
 prefix + Ctrl+r == restores tmux enviotment
 
 sizeof displays size in bytes
+
+for jumping lines in vim use:
+ 10k or 10j, 
+ instead of :10k, :10j
+
+Shift+jI for insert begenning of line
+Shift+A for insert end of line
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+goto in cpp:
+        goto labelname;
+
+        labelname;
+
+function:
+        function block, here function is defined
+        int main calling block
+functions are required to be defined before the int main block
+
+fucntion overloading:
+functions having same name 
+
+why function overloading? 
+        to increase code readibility
+
