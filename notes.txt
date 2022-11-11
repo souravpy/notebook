@@ -1142,20 +1142,95 @@ for jumping lines in vim use:
 Shift+jI for insert begenning of line
 Shift+A for insert end of line
 
+o to insert in the new line
+Shift+O to insert in previous new line
+
+w is to select words,
+to delete a word, use dw.
+ctrl c to kill terminal process
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 goto in cpp:
         goto labelname;
 
         labelname;
 
+---------------------------------
 function:
         function block, here function is defined
         int main calling block
 functions are required to be defined before the int main block
+syntax:
+        returntype function name(type name, type name){
+                return (something)
+        }
 
-fucntion overloading:
+---------------------------------
+types of function:
+        -with parameter and return value
+        -with parameter and no return value
+        -without parameter and no return value
+        -without parameter and with return value
+classic permutation and combination
+
+
+---------------------------------
+funcntion overloading:
 functions having same name 
 
-why function overloading? 
-        to increase code readibility
+types of function overloading:
+        different parameter(and return type)
+        different number of parameters
+
+why function overloading? https://www.geeksforgeeks.org/advantages-and-disadvantages-of-function-overloading-in-cpp/
+        -to increase code readibility, reusability
+        -saves memory
+        -faster execution
+        -lets group similar functions that do stuff
+
+function differing in return type cant be overloaded
+        i.e   >> int fun();
+                 foat fun(); // throws error, cant be overloaded
+
+
+for function overloading 
+        -function name must be same, 
+        -must have different number or 
+        -input datatype must be same
+        -function can have same return datatype
+------------------------------------
+*overloaded function with same datatype parameter gives error*
+
+default argument in functons:
+        works when a function, misses parameters
+
+storage class:
+        -local variable, 
+        -global variable,
+        -static local variable, 
+        -register variable, (discouraged)
+        -thread local variable (multi threading)
+
+src: programiz cpp
+
+char datatype stores a single character
+
+------------------------------------
+default parameter in functions:
+        >> int function(int a = 4, int b = 7)
+
+once default parameter is defined, 
+all subsequent parameters must have default values
+
+Once we provide a default value for a parameter, 
+all subsequent parameters must also have default values. 
+For example,
+        // Invalid
+        >> void add(int a, int b = 3, int c, int d);
+
+        // Invalid
+        >> void add(int a, int b = 3, int c, int d = 4);
+
+        // Valid
+        >> void add(int a, int c, int b = 3, int d = 4);
+
 
