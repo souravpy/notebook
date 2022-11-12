@@ -1057,6 +1057,8 @@ declaring array:
 	cour<<arr[index];
 	int arr[10]={1,2,3,4,5,6,7,8,9,0}
 
+---------------------------------
+
 ctrl c to kill a task on terminal
 
 put the first element in the empty array
@@ -1233,4 +1235,29 @@ For example,
         // Valid
         >> void add(int a, int c, int b = 3, int d = 4);
 
+------------------------------------
+recursion: 
+calling the function inside the function itself
 
+>> int func(){
+         func();
+         }
+
+{ pros and cons }
+pros:
+-recursion improves readability of code, makes it compact
+-it is used in data structures like Graph, Tree traversal
+
+cons:
+-it takes more processor time (more cpu)
+-takes more stack space (more ram)
+-difficult to debug compared to iterative program
+------------------------------------
+return by refrence:
+        evil stuff.
+rules:
+        -cant return constants
+        -cant return local variables
+
+------------------------------------
+arrays:
