@@ -1338,3 +1338,45 @@ passing array in function:
 
 -------------------------------------------
 strings:
+strings = array of characters
+
+types of str:
+        -strings from stl library
+        -c style strings
+_______________________
+C-string:
+_______________________
+declaring:
+they can have size declared or not, no problems.
+        char str[] = "HElllo world"
+        char str[] = {'HElllo', 'world'}
+        char str[2] = {'HElllo', 'world'}
+        char str[3] = {'a','b','c'}
+
+string input:
+        //for all char
+        char str[10];
+        cin.get()
+
+        //for single char input
+        char str[];
+        cin >> str;
+_______________________
+String object (stl library):
+
+declaring:
+        string str;
+
+input:
+        getline(cin, str)
+
+_______________________
+passing string to function:
+
+int func(string str){
+        //code       
+}
+
+int func(){
+        //code       
+}
