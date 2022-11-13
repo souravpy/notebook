@@ -1032,6 +1032,8 @@ read written notes, then classes
 
 pretty easy, pretty easy....
 
+-----------------------------------------------
+
 array topics:
         What is Array ?
         Why array ?
@@ -1260,4 +1262,79 @@ rules:
         -cant return local variables
 
 ------------------------------------
-arrays:
+array:
+What are arrays?
+-array stores similar stuff
+-array has contiguous memory location
+-array are indexed
+
+initialization:
+        int arr[10]={0,1,2,3,4,5,6,7,8,9}
+        int arr[]={0,1,2,3,4,5,6,7,8,9}
+
+iteration: (also printing)
+        more memory efficient:
+             for (const int &i : array){
+             }
+        
+        normal:
+             for (int i : array){
+             }
+
+
+       classic:
+             for (int i=1; i<5; i++){
+
+             }
+
+insering elements:
+        int arr[10]={0,1,2,3,4,5,6,7,8,9}
+        arr[3]=69
+
+colons are used to seperate paremeters in for loop
+
+// ctrl + enter enters a newline without getting insert mode
+// ctrl + alt + n to run the program
+sizeof() = finds size of array
+
+-------------------------------------------
+multidimensional arrays:
+
+2D:
+int arr[3][3]= {{1,2,3},{1,2,3}}
+3D:
+int arr[3][3][3]= {{1,2,3},{1,2,3},{1,2,3}}
+
+input:
+        int arr[r][c];
+        for(int i=1; i<=row; i++){
+                for(int j=1; i<=column; j++){
+                        cin >> arr[r][c];           
+                }               
+        }
+
+printing:
+
+        int arr[r][c];
+        for(int i=1; i<=row; i++){
+                for(int j=1; i<=column; j++){
+                        cout << "numbers[" << i << "][" << j << "]: " << numbers[i][j] << endl;
+                }               
+        }
+
+passing array in function: 
+(normal as you pass variables)
+        1D:
+        int func(int arr[10]){
+        }
+
+        2D:
+        int func(int arr[2][3]){
+        }
+
+        3D:
+        int func(int arr[2][3][4]){
+        }
+
+-------------------------------------------
+strings:
