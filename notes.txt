@@ -1182,8 +1182,8 @@ funcntion overloading:
 functions having same name 
 
 types of function overloading:
-        different parameter(and return type)
-        different number of parameters
+        -different parameter(and return type)
+        -different number of parameters
 
 why function overloading? https://www.geeksforgeeks.org/advantages-and-disadvantages-of-function-overloading-in-cpp/
         -to increase code readibility, reusability
@@ -1198,10 +1198,25 @@ function differing in return type cant be overloaded
 
 for function overloading 
         -function name must be same, 
-        -must have different number or 
-        -input datatype must be same
+        -must have different number 
+        -or different datatype of input
+        -output datatype must be same
         -function can have same return datatype
-------------------------------------
+       
+e.g. :       
+        void printer(int a){
+                cout<<a<<endl;
+        }
+or:
+        void printer(float a){
+                cout<<a<<endl;
+        }
+or:
+        void printer(char a, int b){
+                cout<<a<<endl;
+        }
+
+-----------------------------------
 *overloaded function with same datatype parameter gives error*
 
 default argument in functons:
@@ -1271,7 +1286,7 @@ What are arrays?
 initialization:
         int arr[10]={0,1,2,3,4,5,6,7,8,9}
         int arr[]={0,1,2,3,4,5,6,7,8,9}
-
+        char arr[]={q,w,e,r,t,y}
 iteration: (also printing)
         more memory efficient:
              for (const int &i : array){
@@ -1371,12 +1386,56 @@ input:
         getline(cin, str)
 
 _______________________
-passing string to function:
+passing string to function: 
 
 int func(string str){
         //code       
 }
 
-int func(){
+int func(char str[]){
         //code       
 }
+
+----------------------------------------
+Structures:
+        structured datatype, like a class
+when structure is created, no memory is allocated,
+struct itself is a custom datatype
+struct is a blueprint of a datatype
+_______________________
+definition:
+//structure declaration:
+struct Car{
+        int hp;
+        char engine;
+        int weight;
+        double top_speed;
+        };
+
+//strucutre variables: 
+Car porche;
+
+//access members of structure
+porche.hp = 669;
+
+//input struct datatypes:
+cin >> porche.weight;
+
+or
+string input:
+cin.get(porche.weight,);
+_______________________
+passing struct to function: normal
+//Car = struct, and porche is object of struct 
+void func(Car porche){
+
+}
+_______________________
+returning struct:
+        return struct_name;
+
+
+
+
+
+
