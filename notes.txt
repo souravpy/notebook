@@ -1395,25 +1395,25 @@ int func(string str){
 int func(char str[]){
         //code       
 }
-
-----------------------------------------
+____________________________________________________________________________
 Structures:
-        structured datatype, like a class
-when structure is created, no memory is allocated,
-struct itself is a custom datatype
-struct is a blueprint of a datatype
-_______________________
+-structured datatype, like a class
+-when structure is created, no memory is allocated,
+-struct itself is a custom datatype
+-struct is a blueprint of a datatype
+-----------------------------------
 definition:
-//structure declaration:
+//structure declaration: outside 
 struct Car{
-        int hp;
+        int hp = 669; // default value 
+        int wheels {4}; //explicit default value
         char engine;
         int weight;
         double top_speed;
-        };
+        }Porche, AMG, rari, lamb; //struct objects. 
 
-//strucutre variables: 
-Car porche;
+//strucutre variables: declared in main()
+struct Car porche;
 
 //access members of structure
 porche.hp = 669;
@@ -1424,18 +1424,51 @@ cin >> porche.weight;
 or
 string input:
 cin.get(porche.weight,);
-_______________________
-passing struct to function: normal
-//Car = struct, and porche is object of struct 
-void func(Car porche){
+-----------------------------------
+passing struct to funcntion:
+
+void func(struct_name object_name){
 
 }
-_______________________
-returning struct:
-        return struct_name;
+-----------------------------------
+returning struct form function: object of struct
 
+return object_name;
 
+-----------------------------------
+passing struct to funcntion:
 
+void func(struct_name object_name){
 
+}
+-----------------------------------
+printing struct:
 
+cout << object.attribute
 
+____________________________________________________________________________
+pointers:
+pointers are variables that store adress of variables.
+instead of passing the varaible we pass the pointer.
+
+-----------------------------------
+declaring:
+&var is adress of variable
+>> int *pointVar;
+
+also:
+>> int* pointVar;
+
+also:
+>> int* pointVar, Var;
+// here pointVar is pointer, Var is a normal varaible
+
+-----------------------------------
+assigning pointer:
+
+>> int var;
+   int *pointvar;
+   pointvar = &var; // assign adress
+                   // &var is adress of var
+   cout<<
+-----------------------------------
