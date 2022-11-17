@@ -1287,7 +1287,9 @@ initialization:
         int arr[10]={0,1,2,3,4,5,6,7,8,9}
         int arr[]={0,1,2,3,4,5,6,7,8,9}
         char arr[]={q,w,e,r,t,y}
+
 iteration: (also printing)
+
         more memory efficient:
              for (const int &i : array){
              }
@@ -1351,16 +1353,15 @@ passing array in function:
         int func(int arr[2][3][4]){
         }
 
--------------------------------------------
-strings:
+____________________________________________________________________________
+Strings:
 strings = array of characters
 
 types of str:
         -strings from stl library
         -c style strings
-_______________________
-C-string:
-_______________________
+-----------------------------------
+C style string:
 declaring:
 they can have size declared or not, no problems.
         char str[] = "HElllo world"
@@ -1369,23 +1370,23 @@ they can have size declared or not, no problems.
         char str[3] = {'a','b','c'}
 
 string input:
-        //for all char
+        //for the whole line 
         char str[10];
         cin.get()
 
         //for single char input
         char str[];
         cin >> str;
-_______________________
+-----------------------------------
 String object (stl library):
 
 declaring:
-        string str;
+        string str; // no size limit
 
 input:
-        getline(cin, str)
+        getline(cin, str);
 
-_______________________
+-----------------------------------
 passing string to function: 
 
 int func(string str){
@@ -1395,7 +1396,9 @@ int func(string str){
 int func(char str[]){
         //code       
 }
+
 ____________________________________________________________________________
+
 Structures:
 -structured datatype, like a class
 -when structure is created, no memory is allocated,
@@ -1440,24 +1443,61 @@ passing struct to funcntion:
 
 void func(struct_name object_name){
 
-}
+} // struct has been declared.
+
+-----------------------------------
+input to struct:
+cin >> object.prop 
+
 -----------------------------------
 printing struct:
 
 cout << object.attribute
 
+-----------------------------------
+pointer to struct:
+nothing different or special.
+
+>> struct_name *ptr_name, struct_object; 
+   ptr_name = &struct_object; // assigning pointer
+
+//doesnt work
+>> struct_name struct_object;
+   int* pointer_name; 
+   pointer_name = object;
+
+
+
+//does work
+>> struct_name struct_object;
+   struct_name* pointer_name;  // just like  
+   pointer_name = object;
+
+
+
+
+
 ____________________________________________________________________________
+
 pointers:
 pointers are variables that store adress of variables.
 instead of passing the varaible we pass the pointer.
 
+why pointers?
+-saves memory.
+-reduces length and complexity of code.
+-can return more than one value from a function.
+-increses processing speed.
+
+-----------------------------------
+datatype of pointer must be of same datatype as object.
 -----------------------------------
 declaring:
 &var is adress of variable
 >> int *pointVar;
 
 also:
->> int* pointVar;
+>> int* pointVar; // preferred syntax.
 
 also:
 >> int* pointVar, Var;
@@ -1466,9 +1506,43 @@ also:
 -----------------------------------
 assigning pointer:
 
->> int var;
-   int *pointvar;
+>> int var; // declaring int var
+   int *pointvar; //declaring pointer var
    pointvar = &var; // assign adress
                    // &var is adress of var
-   cout<<
+   cout<<pointer;
 -----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+k
+k
+-----------------------------------
+self talk:
+you wont work hard enough until you have a deadline
+give yourself deadlines.
+
+topics:
+        structures - revise
+        pointers.
+        objects and classes
+        inheritance
+deadline: 
+after deadline: go out for morning n evening, 10k day
