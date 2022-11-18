@@ -1466,17 +1466,41 @@ nothing different or special.
    int* pointer_name; 
    pointer_name = object;
 
-
-
 //does work
 >> struct_name struct_object;
    struct_name* pointer_name;  // just like  
    pointer_name = object;
 
 
+-----------------------------------
+enumeration:
+-like structs; like python lists or dicctionary, key ane element pair.
+-used to assign names to integral constants.
+-enum consists of integral constants.
+-enum can be used for switch statements.
+-enum is indexed normally; indexes can be assigned.
+
+e.g.
+defining enum:
+>> enum enum_name{cons1, cons2, cons3 .....};
+
+>>enum season {      // default index are 0, 1, 2, 3...
+        summer,      // when index is not declared
+        spring,
+        winter,
+        autumn,
+};
 
 
+>>enum season { //like python dict.
+        summer = 0,
+        spring = 9,
+        winter = 7,
+        autumn = 5,
+};
 
+enum variables are constants, cant be reassigned, just like python dicctionary.
+return 
 ____________________________________________________________________________
 
 pointers:
