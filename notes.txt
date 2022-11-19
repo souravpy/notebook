@@ -1575,7 +1575,25 @@ void func(int &ref)
 
 
 
+-----------------------------------
+freecodecamp: DSUC
+abstract datatypes =  define data and operations
+without being lost in implementation details
 
+-logical view
+-operations on ds
+-cost of operations big O
+-implementation as code
+
+
+lists are literally static.
+lists are inefficient when it gets filled.
+when lists are filled, new memory block of size
+
+not very efficient as memory consumption
+
+linked list.
+array is stored in contiguous 
 
 
 
