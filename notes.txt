@@ -225,6 +225,7 @@ ctrl+b
 literally installed ohmytmux
 now it literally even restores nvim
 
+shift + r replaces text in vim, without entering insert mode
 
 
 
@@ -1474,6 +1475,7 @@ nothing different or special.
 
 -----------------------------------
 enumeration:
+-enum is a variant of struct.
 -like structs; like python lists or dicctionary, key ane element pair.
 -used to assign names to integral constants.
 -enum consists of integral constants.
@@ -1481,7 +1483,7 @@ enumeration:
 -enum is indexed normally; indexes can be assigned.
 
 e.g.
-defining enum:
+defining enum: like struct, outside the main.
 >> enum enum_name{cons1, cons2, cons3 .....};
 
 >>enum season {      // default index are 0, 1, 2, 3...
@@ -1490,17 +1492,26 @@ defining enum:
         winter,
         autumn,
 };
+};
+int main(){
+        enum season india; 
+        enum season = summer;// object value must be from the enum, list.
+      //enum season = 1: // error
 
+}
+also,
+
+enum coin{head, tail} toss;
+
+changing default value of enum;
 
 >>enum season { //like python dict.
         summer = 0,
         spring = 9,
         winter = 7,
         autumn = 5,
-};
-
 enum variables are constants, cant be reassigned, just like python dicctionary.
-return 
+
 ____________________________________________________________________________
 
 pointers:
@@ -1536,37 +1547,40 @@ assigning pointer:
                    // &var is adress of var
    cout<<pointer;
 -----------------------------------
+pointer and array: 
+-pointer points to first element of array by default.
+-it points to a single element at a time. 
 
+>> int arr[3];
+   int *ptr;
+   ptr = arr[0]; //same
+   ptr = arr; // no & sign
 
+        ptr = arr   ; same as arr[0]     
+        ptr = arr +1; same as arr[1] 
+        ptr = arr +2; same as arr[2] 
+        ptr = arr +3; same as arr[3] 
+        ptr = arr +4; same as arr[4] 
 
+shift + r replaces text in vim, without getting in insert mode. 
 
+array name as pointer
+inputting elements in an array: 
+cin >> *(arr + i) ;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-k
-k
 -----------------------------------
-self talk:
-you wont work hard enough until you have a deadline
-give yourself deadlines.
+calling function using pointer:
+void func(int &ref)
+//pointers take same
 
-topics:
-        structures - revise
-        pointers.
-        objects and classes
-        inheritance
-deadline: 
-after deadline: go out for morning n evening, 10k day
+
+
+
+
+
+
+
+
+
+
+
