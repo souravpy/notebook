@@ -158,7 +158,7 @@ that differentiates it from other instances of the type of object.
 ____________________________________________________________________________
 
                       VIM TIPS
-src: mit missing sem website
+https://web.stanford.edu/class/cs107/resources/vim
 
 ctrl+/ to comment out code in any lang
 $ for end of line
@@ -186,15 +186,16 @@ To move extremely horizontally use:
 
     Normal: for moving around a file and making edits
     Insert: for inserting text
-    Replace: for replacing text
     Visual (plain, line, or block): for selecting blocks of text
+    ------------------------
     Command-mode: for running a command
+    Replace: for replacing text
 
 Normal: (esc)
 
 Insert: (i)
 
-Replace:
+Replace: R for replacing mode or r to replace a single char.
 
 Visual: (v) 
        plain- (v)  highlights normally 
@@ -1569,9 +1570,16 @@ inputting elements in an array:
 cin >> *(arr + i) ;
 
 -----------------------------------
-calling function using pointer:
-void func(int &ref)
-//pointers take same
+calling function using pointer: // pass by refernce
+instead of passing variable, we pass the variable.
+
+e.g:
+>> void func(int &ref)
+   //pointers take same
+
+we can pass by refrence:
+        -with without 
+        -without pointers.
 
 
 
@@ -1595,6 +1603,11 @@ not very efficient as memory consumption
 linked list.
 array is stored in contiguous 
 
+33min
+study list:
+-array vs link list.
+-doubly linked list
+-stdlib functions in cpp.
 
 
 
