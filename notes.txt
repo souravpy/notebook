@@ -1363,6 +1363,26 @@ types of str:
         -strings from stl library
         -c style strings
 -----------------------------------
+String object (stl library):
+
+declaring:
+        string str; // no size limit
+
+input:
+        getline(cin, str); // gets whole string
+
+-----------------------------------
+passing string to function: 
+
+int func(string str){
+        //code       
+}
+
+int func(char str[]){
+        //code       
+}
+-----------------------------------
+
 C style string:
 declaring:
 they can have size declared or not, no problems.
@@ -1379,29 +1399,10 @@ string input:
         //for single char input
         char str[];
         cin >> str;
------------------------------------
-String object (stl library):
-
-declaring:
-        string str; // no size limit
-
-input:
-        getline(cin, str);
-
------------------------------------
-passing string to function: 
-
-int func(string str){
-        //code       
-}
-
-int func(char str[]){
-        //code       
-}
 
 ____________________________________________________________________________
 
-Structures:
+Struct:
 -structured datatype, like a class
 -when structure is created, no memory is allocated,
 -struct itself is a custom datatype
@@ -1415,9 +1416,9 @@ struct Car{
         char engine;
         int weight;
         double top_speed;
-        }Porche, AMG, rari, lamb; //struct objects. 
+        }Porche, beamer, rari, lamb; //struct objects. 
 
-//strucutre variables: declared in main()
+//strucutre variables: declared in int main()
 struct Car porche;
 
 //access members of structure
@@ -1583,6 +1584,7 @@ we can pass by refrence:
 
 
 // passing by refernce with or without using pointers.
+
 #include<iostream>
 using namespace std;
 void swap(int &a, int &b){ //passing address of variables
@@ -1616,7 +1618,7 @@ int main(){
         cout << " a = " << a <<endl;
         cout << " b = " << b <<endl;
         
-        swap_ptr(&a,&b);
+        swap_ptr(&a,&b); // swap using pointers
 
         cout << "after swapping" << endl;
         cout << " a = " << a <<endl;
@@ -1624,6 +1626,10 @@ int main(){
 
         return 0;
 }
+
+-----------------------------------
+memory management in cpp:
+new, delete operator
 
 -----------------------------------
 freecodecamp: DSUC
