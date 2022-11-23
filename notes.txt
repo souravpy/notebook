@@ -1356,14 +1356,14 @@ passing array in function:
         }
 
 ____________________________________________________________________________
-Strings:
+String:
 strings = array of characters
 
 types of str:
         -strings from stl library
         -c style strings
 -----------------------------------
-String object (stl library):
+string object (stl library):
 
 declaring:
         string str; // no size limit
@@ -1431,9 +1431,13 @@ or
 string input:
 cin.get(porche.weight,);
 -----------------------------------
-passing struct to funcntion:
+passing struct object to funcntion:
 
 void func(struct_name object_name){
+
+}
+e.g.
+void func(car porche){
 
 }
 -----------------------------------
@@ -1461,18 +1465,20 @@ cout << object.attribute
 pointer to struct:
 nothing different or special.
 
+// declaring pointer 
 >> struct_name *ptr_name, struct_object; 
    ptr_name = &struct_object; // assigning pointer
-
-//doesnt work
->> struct_name struct_object;
-   int* pointer_name; 
-   pointer_name = object;
 
 //does work
 >> struct_name struct_object;
    struct_name* pointer_name;  // just like  
    pointer_name = object;
+
+//doesnt work because pointer stores same 
+>> struct_name struct_object;
+   int* pointer_name; 
+   pointer_name = object;
+
 
 
 -----------------------------------
@@ -1516,7 +1522,7 @@ enum variables are constants, cant be reassigned, just like python dicctionary.
 
 ____________________________________________________________________________
 
-pointers:
+Pointers:
 pointers are variables that store adress of variables.
 instead of passing the varaible we pass the pointer.
 
@@ -1626,12 +1632,100 @@ int main(){
 
         return 0;
 }
-
------------------------------------
+____________________________________________________________________________
 memory management in cpp:
 new, delete operator
 
+dynamic memory allocation:
+cpp lets us to allocate memory of a variable in run time
+
+in case of other languages, java, python memory is allocated
+and managed automatically, all using compiler.
+
+but we have to do this manually in cpp
+in cpp we need to deallocate the memory of unused variable, manually
+(no garbage collection.)
+
+we allocate and deallocate memory using new and delete operators. resp.
+
 -----------------------------------
+new:
+new operator allocates memory to variable.
+
+implementing:
+>> int* pointVar; //declaring pointer
+   //dynamically allocate memory using new
+   //pointVar is assigned to newly allocated memory
+   pointVar = new int;
+
+-----------------------------------
+delete:
+delete the dynamically allocated memory, when the variable is unused.
+i.e. delete allocated memory after the variable is used.
+
+syntax:
+>> delete var;
+
+
+
+
+
+
+delete:
+new and delete operators work with arrays too.
+
+
+-----------------------------------
+
+____________________________________________________________________________
+OOPs oops oop:
+
+oop topics:
+        -class and objects
+        -class methods, members
+        -constructors
+        -access specifiers (public, private)
+        ----------------
+        -inheritance
+        -polymorphism
+        -files
+        -exceptions
+
+
+
+objects are created to wrap or bundle similar function and variable, to make code consise
+
+-----------------------------------
+class cars{     //defining class cars
+        porche; // objects inside class cars
+        lamb;
+        rari;
+        beamer;
+}
+
+cpp class:
+-class contains data and functions.
+-class is a blueprint for object.
+e.g.
+
+class class_name{
+        public: // access modifier
+                datatype member; // methods
+                datatype member; // members are variables used within the class
+                datatype member;
+
+                datatype method_name(){ // attributes
+                }
+                datatype method_name(){ // methods / member funcitons   
+                }
+};
+
+-class is a specification for object 
+/ is a custom datatype template instead of data.
+-no storage is allocated when class is defined.
+-storage is defined when an object is defined.
+
+____________________________________________________________________________
 freecodecamp: DSUC
 abstract datatypes =  define data and operations
 without being lost in implementation details
@@ -1657,7 +1751,17 @@ study list:
 -doubly linked list
 -stdlib functions in cpp.
 
+____________________________________________________________________________
+kubernetes 101.
+https://cloud.google.com/learn/what-is-kubernetes
 
+Docker container(izes) the application
+kubernettes manages the container(ized) application.
+
+kubernettes helps in:
+increasing development speed
+running services efficiciently
+deploying applications anywhere
 
 
 
