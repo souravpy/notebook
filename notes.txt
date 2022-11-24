@@ -1733,7 +1733,18 @@ else it wont work.
 
 -----------------------------------
 Class Methods:
+can be defined both 
 
+-----------------------------------
+Access modifiers:
+public:
+-accessed anywhere from the program
+private:
+-can be accesed only within the class
+protected:
+
+
+-----------------------------------
 
 
 
