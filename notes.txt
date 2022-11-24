@@ -1718,12 +1718,32 @@ class class_name{
                 }
                 datatype method_name(){ // methods / member funcitons   
                 }
-};
+}; // classes and struct 
 
+defining cpp object:
+>> class_name object_name;
+>> animal dog; // animal class
+
+-class needs access modifiers defined (public/ private), 
+else it wont work.
 -class is a specification for object 
 / is a custom datatype template instead of data.
 -no storage is allocated when class is defined.
 -storage is defined when an object is defined.
+
+-----------------------------------
+Class Methods:
+
+
+
+
+
+
+
+
+
+
+
 
 ____________________________________________________________________________
 freecodecamp: DSUC
