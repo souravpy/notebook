@@ -377,7 +377,7 @@ jupyter notebook code:
 #classes are custom datatypes
 #creating a class for item in stores
 class item:
-        def __init__(self,name,price,quantity):
+        def (self,name,price,quantity):
                 self.name = name
                 self.price = price
                 self.quant = quant
@@ -1697,10 +1697,11 @@ objects are created to wrap or bundle similar function and variable, to make cod
 
 -----------------------------------
 class cars{     //defining class cars
-        porche; // objects inside class cars
-        lamb;
-        rari;
-        beamer;
+     public:
+        string porche; // objects inside class cars
+        string lamb;
+        string rari;
+        string beamer;
 }
 
 cpp class:
@@ -1733,7 +1734,25 @@ else it wont work.
 
 -----------------------------------
 Class Methods:
-can be defined both 
+class methods can be defined both inside and outside the 
+class defenition.
+
+inside class:
+class class_name{
+        void method_name(){
+        };
+  };
+
+outside class:
+class defined outside the class needs to be declared in the class
+
+class class_name(){
+        public:
+                void method_name(); // declaring 
+}
+
+void class_name::method_name(){
+};
 
 -----------------------------------
 Access modifiers:
@@ -1745,14 +1764,45 @@ protected:
 
 
 -----------------------------------
+Constructor:  (__init__ in python)
+-is the first method to be executed whenever an object is declared.
+-is always public.
+-purpose is to construct an object and assign values to object’s member
+-usually used to cout some values or declare some variables.
+
+constructor definition:
+        class MyClass{
+                public: 
+                        MyConst()
+        }
+
+types of Constructor:
+        -default
+        -with parameter
+        -copy
+
+
+?? is it good practice to declare constructors, and structs outside the class definition
+// MyClass, MyConst == same as class name etc. 
 
 
 
 
+____________________________________________________________________________
+https://www.freecodecamp.org/news/how-to-search-for-files-from-the-linux-command-line/
 
+to find file in terminal:
+>> find . -type f -name style*
 
+find files by extension:
+>> find . -type f -name *.cpp
 
+f - regular file
+d - directory
+l - link
 
+b - block device
+c - character device
 
 
 
