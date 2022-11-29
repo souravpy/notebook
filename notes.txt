@@ -1844,7 +1844,7 @@ increasing development speed
 running services efficiciently
 deploying applications anywhere
 
-
+Nvim shortcuts:
 
 
 
