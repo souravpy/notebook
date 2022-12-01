@@ -1359,6 +1359,8 @@ ____________________________________________________________________________
 String:
 strings = array of characters
 
+end of char has a null or /0;
+
 types of str:
         -strings from stl library
         -c style strings
