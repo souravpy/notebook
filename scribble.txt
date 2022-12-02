@@ -1,0 +1,2 @@
+pointers point the aderess of vaiable.
+int var
