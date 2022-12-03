@@ -1775,7 +1775,7 @@ Constructor:  (__init__ in python)
 constructor definition:
         class MyClass{
                 public: 
-                        MyConst()
+                        MyConst(){}
         }
 
 types of Constructor:
@@ -1786,6 +1786,47 @@ types of Constructor:
 
 ?? is it good practice to declare constructors, and structs outside the class definition
 // MyClass, MyConst == same as class name etc. 
+
+cosntructor is also used in inititate objects.
+
+copy cosntructor: copies data of one object to another.
+
+class area {
+        rectangle (double len, double bre){
+                length = len;
+                breadth = bre;
+        }
+        rectangle(rectangle &obj){
+                length = obj.length;
+                breadth = obj.breadth;
+        }
+};
+-----------------------------------
+objects and function:
+
+//passing objects to function in cpp:
+void func(class obj1, class obj2){
+        sum  = obj1 + obj2
+}
+
+//return objects to function in cpp:
+class_name function(){
+        return obj;
+}
+int main(){
+        class_name obj; // defining object
+        obj = function; // calling function
+
+}
+-----------------------------------
+Operator overloading: (overloading literal fucntions like //, ++, -- etc and using methods)
+syntax:
+returnType operator(++, -- etc) symbol (arguments){
+}
+
+
+
+
 
 
 
