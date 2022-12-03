@@ -1824,6 +1824,7 @@ syntax:
 returnType operator(++, -- etc) symbol (arguments){
 }
 
+we can overload binary and unary functions
 
 
 
