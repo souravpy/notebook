@@ -1826,7 +1826,11 @@ returnType operator(++, -- etc) symbol (arguments){
 
 we can overload binary and unary functions
 
+-----------------------------------
+construtors can be overloaded like functions:
+can have same funcitons, as long as parameters are same
 
+by this we can call the 
 
 
 
