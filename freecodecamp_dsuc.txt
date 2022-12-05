@@ -51,5 +51,59 @@ ____________________________________________________________________________
 practice sold seperately.
 
 
+abstract datatypes =  define data and operations
+without being lost in implementation details
+
+-logical view
+-operations on ds
+-cost of operations big O
+-implementation as code
 
 
+lists are literally static.
+lists are inefficient when it gets filled.
+when lists are filled, new memory block of size
+
+not very efficient as memory consumption
+
+linked list.
+array is stored in contiguous 
+
+33min
+study list:
+-array vs link list.
+-doubly linked list
+-stdlib functions in cpp.
+
+
+
+
+in case of static array the size cant be expanded
+for expanding array, new array of double the size is created
+and previous array is copied over to new empty array
+
+list operations: 
+- access: r/w by index, O(1) constant time as array is stored in 
+                      contiguous memory location
+- insert: O(n) to insert an element in a specific index we have to shift all the elements to right or left
+                hence Time is directly propotional to size of array 
+- remove: O(n)
+- add: O(n) if array is full, new array of double the size is created to copy over the old array
+
+- count: O(1)
+- read/ modify element at specific position:
+- specify datatype:
+
+hence inserting, removing array elements are inefficient for time.
+
+since the new array created is of double size 
+hence most memory is wasted if a single element is added, its memory inefficient
+thats why dynamic array sucks, we need a new dynamic datastructure 
+
+linked list solves all of this
+
+linked list isnt a contiguous memory allocation, array is
+LL has two sections, data and the node(pointer that points the adress of next data)
+pointers take 4 bytes
+first node
+last element has a node 0 as it is null adress that shows the end of linked list
