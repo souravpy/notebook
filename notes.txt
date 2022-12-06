@@ -1404,7 +1404,7 @@ string input:
 
 ____________________________________________________________________________
 
-Struct:
+struct:
 -structured datatype, like a class
 -when structure is created, no memory is allocated,
 -struct itself is a custom datatype
@@ -1476,7 +1476,7 @@ nothing different or special.
    struct_name* pointer_name;  // just like  
    pointer_name = object;
 
-//doesnt work because pointer stores same 
+//doesnt work because pointer stores same datatype 
 >> struct_name struct_object;
    int* pointer_name; 
    pointer_name = object;
@@ -1828,9 +1828,37 @@ we can overload binary and unary functions
 
 -----------------------------------
 construtors can be overloaded like functions:
-can have same funcitons, as long as parameters are same
+can have same funcitons, as long as parameters are samb;
 
 by this we can call the 
+____________________________________________________________________________
+inheritance cpp:
+class and their property can be inherited
+
+syntax:
+class parent{
+        //properties
+}
+class Child : public Parent { //public can be replced with private or protected
+        // attr. else than parent class
+}
+
+
+multilevel inheritance:
+
+friend classes and functons
+
+virtual functions
+
+____________________________________________________________________________
+access modifier: can be used with class, methods, etc.
+public
+private
+protected: can only be accesed by child/ derived class
+
+
+write code for all of them
+
 
 
 

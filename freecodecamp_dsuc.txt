@@ -102,8 +102,30 @@ thats why dynamic array sucks, we need a new dynamic datastructure
 
 linked list solves all of this
 
-linked list isnt a contiguous memory allocation, array is
+linked list is disjoint memory allocation
 LL has two sections, data and the node(pointer that points the adress of next data)
 pointers take 4 bytes
-first node
+first node(head) - adress to first node gives access to complete linked list
 last element has a node 0 as it is null adress that shows the end of linked list
+inserting, can add elements anywhere, just adjust links properly
+
+32:00 
+array vs linked list:
+
+traversal:
+- array const time O(1) as array is stored in contiguous memory location
+        enter index get result so constant time.
+- in linked list we have to go node to node so O(n) time taken.
+
+
+memory requirement:
+- linked list is more efficient, no memory is wasted
+
+ease of use:
+- Array, less complex
+- linked list faces problem of segmentation error
+
+
+implementing linked list:
+
+malloc() creates a memory block

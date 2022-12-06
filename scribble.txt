@@ -1,2 +1,11 @@
 pointers point the aderess of vaiable.
 int var
+
+gpt3 can filter texts and write summaries, TLDR/ tweet
+can generate interesting titles.
+
+can generate memes out of phrases.
+
+can generate poetry, 
+
+
