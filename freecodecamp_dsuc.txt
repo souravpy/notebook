@@ -129,3 +129,21 @@ ease of use:
 implementing linked list:
 
 malloc() creates a memory block
+typedef creates a new "datatype" to be used throughout the code.
+
+
+linked list implementation:
+traversal, insering node at end of linklist
+inserting a node at begenning of linked list
+
+
+    - The Weeknd
+    - Frank Ocean
+    - Kanye West
+    - Taylor Swift
+    - Kendrick Lamar
+    - Beyoncé
+    - Adele
+    - Ed Sheeran
+    - Justin Bieber
+    - Billie Eilish
