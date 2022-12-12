@@ -12,7 +12,39 @@ https://www.programiz.com/dsa best resuorce for dsa.
 
 gpt3 
 
----------------------------------------------
 
+PROGRAMIZ NOTEZ:
+
+---------------------------------------------
+doubly linked list:
+
+A double-linked list is a type of data structure that is used to store a sequence of elements. It is similar to a singly-linked list, but each node in a double-linked list has both a "next" pointer and a "prev" pointer, which point to the next and previous nodes in the sequence, respectively.
+
+This allows for efficient insertion and deletion of elements at any position in the sequence, as well as the ability to traverse the list in both forward and backward directions.
+
+Here is an example of a double-linked list:
+
+head -> 5 <-> 10 <-> 15 <-> 20 <-> 25 -> NULL
+^ ^
+| |
+prev prev
+
+In this example, the list contains five elements with values 5, 10, 15, 20, and 25. The "head" pointer points to the first node in the list, and the "prev" pointers at the end of the list and at the head of the list point to NULL.
+
+To traverse the list, we can start at the head node and follow the "next" pointers to visit each node in the list. To traverse the list in the opposite direction, we can start at the last node and follow the "prev" pointers to visit each node in reverse order.
+
+Overall, a double-linked list is a useful data structure for storing and managing sequences of elements, and its ability to efficiently insert and delete elements and traverse the list in both directions makes it a popular choice for many applications.
+Free Research Preview: ChatGPT is optimized for dialogue. Our goal is to make AI systems more natural to interact with, and your feedback will help us improve our systems and make them safer.
+
+---------------------------------------------
+tree terminology:
+node
+edge
+
+tree stuff
+graph based dsa
+
+
+which recognizes that the best approach to organizational behavior depends on the specific situation and context.
 
 

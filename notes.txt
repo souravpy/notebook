@@ -1926,6 +1926,6 @@ c+ u = up
 c+ = up
 c+ b = up
 
-replacing text in nvim: r or R
+replacing text in : r or R
 r for single char
 R for multiple char in sentence 
