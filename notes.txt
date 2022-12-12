@@ -1858,7 +1858,19 @@ protected: can only be accesed by child/ derived class
 
 
 write code for all of them
+____________________________________________________________________________
+Tree datastructure:
+terminology:
+node
+edge
+leaf
 
+height of node
+depth of node
+
+height of tree
+degree of tree
+forest
 
 
 
