@@ -1872,8 +1872,9 @@ height of tree
 degree of tree
 forest
 
-
-
+implement everything in code dat
+implement link list in cpp. 
+implement binary tree traversal in cpp.
 
 
 ____________________________________________________________________________
