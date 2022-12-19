@@ -1877,6 +1877,14 @@ implement link list in cpp.
 implement binary tree traversal in cpp.
 
 
+fuck it its the implementation day:
+link list
+
+left out topics.
+avl tree rotations
+
+
+
 ____________________________________________________________________________
 https://www.freecodecamp.org/news/how-to-search-for-files-from-the-linux-command-line/
 
