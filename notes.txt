@@ -1882,6 +1882,16 @@ link list
 
 left out topics.
 avl tree rotations
+b, b+ tree complete
+  // Assign value values
+  one->value = 1;
+  two->value = 2;
+  three->value = 3;
+
+  // Connect nodes
+  one->next = two;
+  two->next = three;
+  three->next = NULL;
 
 
 
