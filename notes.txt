@@ -1960,3 +1960,7 @@ c+ b = up
 replacing text in : r or R
 r for single char
 R for multiple char in sentence 
+
+
+use notion enhancer, on web and desktop
+ctrl + alt + e for enhaner menu.

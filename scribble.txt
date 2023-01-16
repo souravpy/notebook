@@ -47,4 +47,7 @@ graph based dsa
 
 which recognizes that the best approach to organizational behavior depends on the specific situation and context.
 
+use the function row more often
+initial commit needs to be done before pushing the git repo.
 
+ctrl b + s = tmux sessions 
