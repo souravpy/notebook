@@ -50,4 +50,5 @@ which recognizes that the best approach to organizational behavior depends on th
 use the function row more often
 initial commit needs to be done before pushing the git repo.
 
-ctrl b + s = tmux sessions 
+ctrl b + s = tmux sessions
+

@@ -1964,3 +1964,60 @@ R for multiple char in sentence
 
 use notion enhancer, on web and desktop
 ctrl + alt + e for enhaner menu.
+____________________________________________________________________________
+
+OOPS in cpp:
+constructor:
+a method can be called in constructor even if it is declared later
+
+everything without a modifier(public, private, protected) is public
+by default.
+
+
+-----------------------------------
+
+encapsulation is hiding details 
+encapsulation using getters and setters
+data is private, 
+getter and setter methods are in class public section
+getter and setter methdods are public, they encapsulate data
+data is accesed throuch getter and setter functions instead of directly.
+getter and setter can be configured to provide access only to specific method.
+constructors can also access private data
+
+
+-----------------------------------
+
+abstraction is hiding complex details on user's end
+abstract class: serves as contract 
+virtual function is in abstract class
+
+normal class inherits the abstract class which contains pure virtual Functions
+
+
+-----------------------------------
+inheritance:
+class child_class:public parent_class {
+
+};
+
+provide a constructor for derived class too, else it wont work
+constructor in derived function should have new unique properties,
+doesnt need to repeat parameters defined in parent class.
+1:02:13
+private access modifier gives access of variables to the child classes
+
+inheritance needs access modifiers too
+
+for accessing base class methods we need to have 
+access modifiers public while inheriting the parent class methods
+!:13:17
+
+-----------------------------------
+
+polymorphism:
+method name is same across the classes, 
+but perform different tasks when invoked
+
+-----------------------------------
+override is used with methods using virtual functions
