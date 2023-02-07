@@ -1951,6 +1951,8 @@ increasing development speed
 running services efficiciently
 deploying applications anywhere
 
+____________________________________________________________________________
+
 Nvim shortcuts:
 scrolling without cursor moving:
 c+ u = up
@@ -2021,3 +2023,20 @@ but perform different tasks when invoked
 
 -----------------------------------
 override is used with methods using virtual functions
+
+make cpp calculator using oops// use switch case too
+learn vector in cpp
+learn stdlib functions
+
+-----------------------------------
+private variables can be accesed by public methods in same fucntion
+class method cant be accessed when an object isnt initiated in
+the int main method.
+
+calling the function need to have brackets.
+
+make a progress in linux terminal 
+grepp
+ssh programs
+
+exec java in 
