@@ -2040,3 +2040,14 @@ grepp
 ssh programs
 
 exec java in 
+
+inline and internal css
+<style> tag
+everything on a website is in boxes
+length and width can be altered of these boxes
+percentage
+external css styles .css
+<link rel='stylesheet' href='file location'>
+debug css code, chrome dev tools
+
+gh package makes it easy for cli setup.
