@@ -2041,13 +2041,44 @@ ssh programs
 
 exec java in 
 
+-----------------------------------
 inline and internal css
 <style> tag
+
 everything on a website is in boxes
-length and width can be altered of these boxes
-percentage
+length and width can be altered of these boxes percentage
+
 external css styles .css
 <link rel='stylesheet' href='file location'>
+in <head> tag, delete 
+
 debug css code, chrome dev tools
 
-gh package makes it easy for cli setup.
+-----------------------------------
+gh package makes it easy for cd setup.
+super easy
+
+learn ci cd
+typecasting: implicit(automatic),no data loss and explicit(data loss)
+
+-----------------------------------
+java variables: instance, class, local, parameters
+
+input methods in java: cli, scanner class, buffer reader
+
+yank block in vim is super useful , 
+select visual block is ctrl+v
+-----------------------------------
+realtional operator
+assignment operator java
+
+where will learninig java take me next??
+
+-----------------------------------
+css selector, {class, tag, id selector}
+
+sql admin pass: Gourav5099!
+sudo mysql -u root -p
+
+dont forget caps lock anfd colon; in sql
+USE QUOTES FOR STRING '' ALWAYS
