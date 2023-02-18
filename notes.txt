@@ -2077,8 +2077,19 @@ where will learninig java take me next??
 -----------------------------------
 css selector, {class, tag, id selector}
 
+-----------------------------------
+SQLLLLL!!!
+
 sql admin pass: Gourav5099!
 sudo mysql -u root -p
 
 dont forget caps lock anfd colon; in sql
 USE QUOTES FOR STRING '' ALWAYS
+
+STEPS TO START MYSQL SERVER::
+>> sudo mysql -u root -p
+>> sudo password:
+>> mysql password:
+>> SHOW DATATBASES;
+>> USE MYSQL;
+
