@@ -2093,3 +2093,27 @@ STEPS TO START MYSQL SERVER::
 >> SHOW DATATBASES;
 >> USE MYSQL;
 
+
+-----------------------------------
+write a bash script that cat all files
+cat
+mv 
+cp
+
+$name = varaible
+echo doesnt need ""
+echo "hello world"
+is same as : echo hello world
+
+echo $variable_name : prints the varaible
+printf also works when more specific output is needed
+formatting in printf is just like c
+
+saving the output in different file
+echo > file.tex
+???
+capture output and store it into a file
+
+-----------------------------------
+JAVA nowwww
+
