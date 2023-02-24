@@ -2117,3 +2117,9 @@ capture output and store it into a file
 -----------------------------------
 JAVA nowwww
 
+
+-----------------------------------
+grep is used to find specified string in a file or direcctory
+grep is used for searching strings in files
+can find in zipped files
+can use regex, or regular expressions
