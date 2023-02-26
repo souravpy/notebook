@@ -2134,3 +2134,8 @@ space for navigatiion
 
 clear - x, saves history, scrolls up
 ls -l same as lsa
+
+learn YAML, type out networking resources
+figure out how to opensource using CLI. 
+figure out integration...
+
