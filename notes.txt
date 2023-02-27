@@ -2137,5 +2137,8 @@ ls -l same as lsa
 
 learn YAML, type out networking resources
 figure out how to opensource using CLI. 
-figure out integration...
 
+-----------------------------------
+setup mindsdb on the local device
+learn mindsdb
+figure out the integration issue
