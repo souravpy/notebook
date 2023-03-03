@@ -2142,3 +2142,53 @@ figure out how to opensource using CLI.
 setup mindsdb on the local device
 learn mindsdb
 figure out the integration issue
+
+git remote -v == displays remote 
+
+datree is a yaml validator that works with cli
+gui is web based like jupyter
+
+datree verifies yaml files, checks validity
+setup datree cli
+runs locally
+has jupyter like web gui
+has policies which can be modiffied along woth error messases
+has history of validations done
+has policy as code, exposts policies as yaml files
+has integrations like helm
+
+-----------------------------------
+learn docker setup docker in the local machine
+docker docs : https://docs.docker.com/get-started/
+
+microservices
+monolithic
+
+rolling updates
+
+orchestrestator deployoing and managing containers dynamically
+
+cloud native applications meet certain demands
+run on top of kubernetes
+
+kubernettes api
+
+runs on machine, loud
+migrate it
+cann replicate and scale
+self healing
+volumes
+load balancing 
+store secrets
+not just orchestation
+
+cncf owns kubernettes (donated by google)
+kubernettes docs rnnnnn 
+
+-----------------------------------
+docker and kubernetes are written in GO
+GO is a scalable programming lang made to write network services
+good choice to develop cloud native applications
+
+docker will make a go app run on system 
+even if the go compiler isnt there
