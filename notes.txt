@@ -2192,3 +2192,146 @@ good choice to develop cloud native applications
 
 docker will make a go app run on system 
 even if the go compiler isnt there
+
+minikube lets run kubernetes on local machine with single node
+
+-----------------------------------
+bash scripting idea exce:
+
+push the lsa result in other file, iterate through each line
+
+command >> output.file
+extenal file can have any extension .txt, .hdjfaslkdfj anything
+
+ideas:
+bash script to find a file
+
+target is to make a script that does git pull --rebase origin 
+for every folder in it
+
+made a bash script that goes to hidden location or gets deleted after
+execution
+
+cd -  :makes you jump to previous working directory
+cd ~  :makes you jump to home
+
+ls -l
+
+done closes the for loop
+
+_____________________
+inputs::::
+
+user input : read var_name
+access it: $var_name
+_____________________
+varaibles::::::
+
+user input : read var_name
+access it: $var_name
+
+#!bin/bash executes file in bash 
+
+prints out variable with other stuff ""
+
+capture output of command in a variable: 
+var_name=$(command)
+
+default variables in shell e.g $USER
+all caps variable are sysatem and enviorment names
+env : enviorment variables
+
+_____________________
+maths::::::::
+
+expr == evaluate an expression
+every value needs 
+expr $var + 222
+expr $var1 + $var2 
+/*
+_____________________
+if satatements:::::
+
+fi closes if statement
+send text editor to background
+-eq === equal
+-ne === not equal
+-gt === 
+-f === check file
+
+
+if [condition]
+then
+        echo
+else
+        echo
+fi
+
+
+always remember to enclose if with fi
+
+_____________________
+what does the bin folder contain???
+/usr/bin/app
+apps and commands are essentially files
+
+if command -v $any command var
+checks if command exists
+
+text command are condition or tests like equal or less etc
+
+grep command
+_____________________
+test:::::
+
+no space between command=and
+
+test -e filename // tests if file exists or not
+[ -e filename] //used with if statement
+
+test -f foldername // tests if file exists or not
+
+if it doesnt work it always have work arounds
+
+_____________________
+iterating through folders in a direcctory:
+
+for folder in ~/location/*/
+do
+    if [ -e ] 
+    echo $folder
+done
+
+*tips*
+dont forget the wildcard * == all occuraneces 
+loa/d/d/dd/*
+
+dont foeget to check if variable a file or not
+if [ -d "$file" ] #has to be exactly like this
+
+dont forget to enclose for with done
+if with fi
+
+dont forget to add :::
+if 
+then
+   satatement
+fi
+
+for
+do
+   satatement
+done
+
+
+man test for help
+
+
+_____________________
+ideas::::::
+
+bash script to find a file
+
+target is to make a script that does git pull --rebase origin 
+for every folder in it
+
