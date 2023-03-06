@@ -2335,3 +2335,83 @@ bash script to find a file
 target is to make a script that does git pull --rebase origin 
 for every folder in it
 
+
+_____________________
+exit codes:::::
+
+
+osint:: opensource inteligence for twitter
+network sniffing
+
+router and switch
+nmap
+wireshark
+ettercap
+arp poisininig
+man in the middle attack
+
+where puthon3
+
+robbyrussel
+
+
+ls -R ::::::: recursive lists folder in file in folder ......
+cat > file.txt streams output to other file
+tunneling
+it also creates the file if it doesnt exist
+
+command | command1 
+
+mkdir -p 
+
+explore cat commands
+
+if elif else ladder exists in bash
+
+
+
+_____________________
+exit codes::::::
+0 = success
+
+echo $?
+shows the exit code of the command entered
+0 == successful execution 
+any other number == failure
+
+exit
+
+
+
+make a bash script to install vs code on any distro
+
+redirect << 
+
+
+
+daw == deletes the word all together
+
+caw == deletes the word altogether and puts in insert mode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
