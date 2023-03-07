@@ -2379,14 +2379,15 @@ shows the exit code of the command entered
 0 == successful execution 
 any other number == failure
 
-exit
 
+exit codes can be explicitly mentioned
+eg exit code for executing hello world
+exit <code>
+once exit code ecxplicitly mentioned command literally exits
+no line under exit command gets executed
 
 
 make a bash script to install vs code on any distro
-
-redirect << 
-
 
 
 daw == deletes the word all together
@@ -2395,6 +2396,11 @@ caw == deletes the word altogether and puts in insert mode
 
 
 
+is bash indented language
+
+
+IO redirection
+<,>>,>,| 
 
 
 
