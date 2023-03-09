@@ -2083,10 +2083,10 @@ SQLLLLL!!!
 sql admin pass: Gourav5099!
 sudo mysql -u root -p
 
-dont forget caps lock anfd colon; in sql
+dont forget caps lock and colon; in sql
 USE QUOTES FOR STRING '' ALWAYS
 
-STEPS TO START MYSQL SERVER::
+STEPS TO START MYSQL SERVER::::
 >> sudo mysql -u root -p
 >> sudo password:
 >> mysql password:
@@ -2401,6 +2401,10 @@ is bash indented language
 
 IO redirection
 <,>>,>,| 
+
+make a bash script that updates github
+uploads all files when executed
+if empty commit then add a blank file to commit
 
 
 
