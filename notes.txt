@@ -2407,7 +2407,21 @@ uploads all files when executed
 if empty commit then add a blank file to commit
 
 
+while loop is generally used for menus
+it runs over and over again until the condition is met
 
+man test
+
+mind the spaces in bash
+its extremely space sensetive
+
+Ctrl+Z suspends jobs in background in bash
+can access it using jobs
+Ctrl+C closes the task
+
+jobs
+
+swich back and forth using fg and Ctrl+Z
 
 
 
