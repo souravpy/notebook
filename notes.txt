@@ -2352,7 +2352,7 @@ man in the middle attack
 
 where puthon3
 
-robbyrussel
+robbyrussel theme
 
 
 ls -R ::::::: recursive lists folder in file in folder ......
@@ -2424,18 +2424,35 @@ jobs
 swich back and forth using fg and Ctrl+Z
 
 
+when pasing parameters using $var, ~/sdfsad/sdfsad doesnt work,
+use full locations
 
+_____________________
+echo ::::
 
+$var : var can also be 
+$(command)
 
+echo "hello $var world"
+echo "hello $(command) world"
 
+find commad, finds files
+grep prints lines that matches the pattern
 
+check changes in file
+-mtime
+-mmin
+-newermt
 
+check os version in linux:
 
+$ cat /etc/os-release
+$ lsb_release -a
+$ hostnamectl
 
+Linux Kernel version
+$ uname -r
 
-
-
-
-
+grep filters out output for useful stuff
 
 
