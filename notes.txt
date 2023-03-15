@@ -2424,7 +2424,7 @@ jobs
 swich back and forth using fg and Ctrl+Z
 
 
-when pasing parameters using $var, ~/sdfsad/sdfsad doesnt work,
+when pasing parameters using $var, ~/home/location doesnt work,
 use full locations
 
 _____________________
@@ -2456,3 +2456,5 @@ $ uname -r
 grep filters out output for useful stuff
 
 
+saving tmux enviorment:
+Ctrl+b + Ctrl+s
