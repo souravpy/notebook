@@ -2444,8 +2444,9 @@ check changes in file
 -mmin
 -newermt
 
-check os version in linux:
+check distro in linux:
 
+any one of the commnands
 $ cat /etc/os-release
 $ lsb_release -a
 $ hostnamectl
@@ -2458,3 +2459,10 @@ grep filters out output for useful stuff
 
 saving tmux enviorment:
 Ctrl+b + Ctrl+s
+
+grep -q
+if[] is used for test command
+if command is used for normal commands, no brackets needed
+
+or satement ||
+and satement &&
