@@ -2466,5 +2466,3 @@ if command is used for normal commands, no brackets needed
 
 or satement ||
 and satement &&
-
-stuck
