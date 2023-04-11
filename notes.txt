@@ -2466,3 +2466,14 @@ if command is used for normal commands, no brackets needed
 
 or satement ||
 and satement &&
+
+
+____________________________________________________________________
+11/4/23
+exceptions in java:
+handled by handler (jvm)
+
+handler: default handler (jvm)
+         exception handler (defined by dev)
+
+default handler, handled by jvm, as exception handler isnt explicitly defined
