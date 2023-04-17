@@ -2368,7 +2368,9 @@ explore cat commands
 
 if elif else ladder exists in bash
 
-
+_____________________
+cd - >>>> switces between directories quickly
+          back and forth
 
 _____________________
 exit codes::::::
@@ -2477,3 +2479,39 @@ handler: default handler (jvm)
          exception handler (defined by dev)
 
 default handler, handled by jvm, as exception handler isnt explicitly defined
+
+exception handling methods:
+- try catch 
+- try with multiple catch
+- nested try
+- try with finally block
+- try catch finally
+- custom exception  
+
+
+try catch :
+
+try
+{
+        //code with exception
+} 
+
+catch(TypeException object)
+{
+        //code to handle exception
+}
+
+exception types:
+ArithmaticException
+ArrayIndexOutOfBounds
+shit like that
+
+telescope plugin
+space + ? searches within the file
+space + space searches the recent files
+sh = search help
+sw = search word
+ctrl + space
+
+nivm treesitter
+10Vex nvim file explorer
