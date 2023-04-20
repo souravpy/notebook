@@ -2515,3 +2515,34 @@ ctrl + space
 
 nivm treesitter
 10Vex nvim file explorer
+
+_________________________________________________
+catch  Exception //
+
+Custom exception:
+exception else than the java library
+
+public string to String
+Throwable.getCause(){
+        Cause of exception
+}
+String getMessage(){
+        message
+}
+
+
+throw: keyword is used to manually throw an exception
+to be caught by catch
+unchecked
+in try block
+for logical error
+
+throws: checked exception
+used with method signature
+for io error
+
+wap to give insufficient funds exception that will occur when an user
+tries to withdraw more money than account
+
+multithreading
+
