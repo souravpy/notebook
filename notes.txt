@@ -2549,6 +2549,33 @@ multithreading
 deadlock:
 
 Strings
-Java strings are sequence
+Java strings are sequence of character, they are objeects of type string
 Java strings are immutable
+
+Creating Strings :
+        -using string literal: less memory consumed
+        all string have one object
+
+        String str1= new String(data);
+        
+
+        -using string class: memory inefficient 
+
+String Methods:
+        length(): returns number of character in a string
+        + operator:  String 
+        char charAt(int index): returns character from a string
+        equals()
+        equalsIsIgnoreCase():
+        startsWith(): if string starts with 
+        endsWith(): if string ends with
+        compareTo(): compares two strings 
+                public int compareTo(String1 String2)
+                compares using ASCII values
+        compareToIgnoreCase():
+                public int compareToIgnoreCase(String1 String2):
+        indexOf: Searches the first occuance of character or substring, 
+                 Returns -1 if the character doesn't
+        substring(): slices string
+                "alphabetstring".substring(1,5)
 
