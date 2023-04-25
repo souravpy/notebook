@@ -2546,7 +2546,9 @@ tries to withdraw more money than account
 
 multithreading
 
+deadlock:
 
-11
+Strings
+Java strings are sequence
+Java strings are immutable
 
-11
