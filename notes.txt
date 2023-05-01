@@ -2547,6 +2547,10 @@ tries to withdraw more money than account
 multithreading
 
 deadlock:
+        
+
+
+  
 
 Strings
 Java strings are sequence of character, they are objeects of type string
@@ -2569,13 +2573,18 @@ String Methods:
         equalsIsIgnoreCase():
         startsWith(): if string starts with 
         endsWith(): if string ends with
+
         compareTo(): compares two strings 
                 public int compareTo(String1 String2)
                 compares using ASCII values
+
         compareToIgnoreCase():
                 public int compareToIgnoreCase(String1 String2):
+
         indexOf: Searches the first occuance of character or substring, 
                  Returns -1 if the character doesn't
+
         substring(): slices string
                 "alphabetstring".substring(1,5)
 
+        
