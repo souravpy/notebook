@@ -2591,3 +2591,23 @@ String Methods:
 https://docs.meshery.io/project/contributing/contributing-ui
 
 go basics
+
+learn ml basics? ai hypetrain worth it ig
+learn ml tools: Stable diffusion, open cv functions, research worthy topics
+
+class sample{
+        public static void main(String args[]){
+                //statements; 
+        }
+}
+
+main keywords: public static void
+
+public(): unprotected
+static(): belongs to entire class rather than objects
+void(): doesnt return value
+
+
+dbms key concepts::
+raid volumes:: 0,1,2,3,4,5,6....... 1 0, 5 0
+raid 0, 1, 2, 3:: striped, mirrored set, bit byte
