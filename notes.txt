@@ -2587,6 +2587,13 @@ String Methods:
         substring(): slices string
                 "alphabetstring".substring(1,5)
 
+arrays in java:
+int[] arr_name= {val,val1,val2,.....}
+
+ sudo git clone https://github.com/gpakosz/.tmux.git "/.config/tmux"
+ mkdir -p ".config/tmux"
+ ln -s ".config/tmux/.tmux.conf" ".config/tmux/tmux.conf"
+ cp ".config/tmux/.tmux.conf.local" ".config/tmux/tmux.conf.local"
         
 https://docs.meshery.io/project/contributing/contributing-ui
 
@@ -2611,3 +2618,5 @@ void(): doesnt return value
 dbms key concepts::
 raid volumes:: 0,1,2,3,4,5,6....... 1 0, 5 0
 raid 0, 1, 2, 3:: striped, mirrored set, bit byte
+
+dbms file systems: heap
