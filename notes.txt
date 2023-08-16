@@ -2620,3 +2620,6 @@ raid volumes:: 0,1,2,3,4,5,6....... 1 0, 5 0
 raid 0, 1, 2, 3:: striped, mirrored set, bit byte
 
 dbms file systems: heap
+
+such a long time::: openning vs code
+switched to nvim
